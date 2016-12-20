@@ -12,7 +12,7 @@ numLEDs = 60
 # myCycle = colorschemes.StrandTest(numLEDs=numLEDs, pauseValue=0, numStepsPerCycle = numLEDs, numCycles = 3, globalBrightness=10)
 # myCycle.start()
 # Two slow trips through the rainbow
-myCycle = colorschemes.Rainbow(numLEDs=numLEDs, pauseValue=.1, numStepsPerCycle = 255, numCycles = 20, globalBrightness=1)
+myCycle = colorschemes.Rainbow(numLEDs=numLEDs, pauseValue=.5, numStepsPerCycle = 255, numCycles = 20, globalBrightness=1)
 myCycle.start()
 # # Five quick trips through the rainbow
 # myCycle = colorschemes.TheaterChase(numLEDs=numLEDs, pauseValue=0.04, numStepsPerCycle = 35, numCycles = 5, globalBrightness=10)
