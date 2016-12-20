@@ -58,7 +58,7 @@ class APA102:
         self.numLEDs = numLEDs
         order = order.lower()
         self.rgb = rgb_map.get(order, rgb_map['rgb'])
-        print self.rgb
+
         # LED startframe is three "1" bits, followed by 5 brightness bits
         self.ledstart = (globalBrightness & 0b00011111) | 0b11100000 # Don't validate, just slash of extra bits
         self.leds = [self.ledstart,0,0,0] * self.numLEDs # Pixel buffer
